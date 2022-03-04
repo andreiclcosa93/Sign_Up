@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	height: 200px;
+	/*background-color: #606060;*/
+	  background: linear-gradient(to left, #000000 -15%, #ffffff 100%);
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.logo{
+	width: 300px;
+	height: 75px;
+	position: relative;
+	margin: 0 auto;
+	margin-left: -100px;
+}
+
+.logo img{
+	position: absolute;
+	width: 480px;
+	height: 280px;
+	margin-top: -33px;
+	margin-right: -200px;
+}
+
+.nav{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.nav ul li{
+	display: inline-block;
+	font-size: 23px;
+	font-family: 'Rampart One', cursive;
+	color: black;
+	padding-right: 20px;
+	padding-left: 30px;
+}
+
+
+
+.login{
+	margin-top: 130px;
+}
+
+.login h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Rampart One', cursive;
+	margin-bottom: 15px;
+}
+
+.login form{
+	text-align: center;
+}
+
+.login form input{
+	width: 300px;
+	height: 35px;
+	margin-bottom: 10px;
+	text-indent: 5px;
+	padding: 5px;
+}
+
+.login form input:hover{
+	background-color: #909090;
+	text-decoration: none;
+	border: none;
+	color: white;
+	transition: 0.7;
+}
+
+.login form input:last-Child{
+	cursor: point;
+	transition: 0.3;
+}
